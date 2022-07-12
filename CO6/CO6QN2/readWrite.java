@@ -1,0 +1,31 @@
+package CO6QN2;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class readWrite {
+
+    public static void main(String[] args) {
+
+        try {
+            FileWriter writer = new FileWriter("co6q2.txt",true);
+            writer.write("Java file Handling - Read and Write");
+            writer.close();
+            FileReader reader = new FileReader("co6q2.txt");
+            BufferedReader br= new BufferedReader(reader);
+            String line;
+            System.out.println("Data read from the file");
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+            reader.close();
+
+        } catch (IOException e) {
+            System.out.println("-----Error-----");
+        }
+
+    }
+
+}
