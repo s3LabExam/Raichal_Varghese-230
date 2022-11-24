@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6CCED"
+    app:background="@color/black"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#090909"
+        android:textAlignment="center"
+        android:hint="@string/name_of_fans_club" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#090909"
+        android:textAlignment="center"
+        android:hint="@string/place" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="230dp"
+        android:textAlignment="center"
+        android:backgroundTint="#090909"
+        android:hint="Player" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#090909"
+        android:textAlignment="center"
+        android:hint="Name" />
+
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="290dp"
+        android:backgroundTint="#090909"
+        android:textAlignment="center"
+        android:hint="CONTACT" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="320dp"
+        android:textAlignment="center"
+        android:backgroundTint="#090909"
+        android:hint="Age" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="370dp"
+        android:textAlignment="center"
+        android:backgroundTint="#090909"
+        android:text="Any Role" />
+
+    <RadioButton
+        android:id="@+id/player"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="400dp"
+        android:textAlignment="center"
+        android:backgroundTint="#090909"
+        android:text="Player" />
+
+    <RadioButton
+        android:id="@+id/goalkeeper"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="440dp"
+        android:textAlignment="center"
+        android:backgroundTint="#090909"
+        android:text="GloalKeeper" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="490dp"
+        android:textAlignment="center"
+        android:backgroundTint="#090909"
+        android:text="GENDER" />
+
+    <CheckBox
+        android:id="@+id/male"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="510dp"
+        android:textAlignment="center"
+        android:backgroundTint="#090909"
+        android:text="MALE" />
+
+    <CheckBox
+        android:id="@+id/female"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="550dp"
+        android:textAlignment="center"
+        android:backgroundTint="#090909"
+        android:text="FEMALE" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#E19999"
+        android:text="FANS CLUB"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bureg"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="600dp"
+        android:textAlignment="center"
+        android:backgroundTint="#4CAF50"
+        android:text="Register" />
+
+</RelativeLayout>
