@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mu"
+        android:title="Manchester United" />
+    <item
+        android:id="@+id/port"
+        android:title="Portugal" />
+    <item
+        android:id="@+id/arg"
+        android:title="Argentina" />
+    <item
+        android:id="@+id/france"
+        android:title="France" />
+
+
+
+</menu>
